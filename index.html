@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Tabanı Yönetim Sistemleri</title>
+    <link rel="stylesheet" href="styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f6cd61;
+        }
+        header {
+            background-color: #fe8a71;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #0e9aa7;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #8ee000;
+            color: black;
+        }
+        footer {
+            margin-right: 10px;
+            background-color: #3da4ab;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h3 {
+       padding-left: 50px;
+    }    
+        h1 {
+            font-family: 'Rubik Doodle Shadow', sans-serif;
+        }
+                .aktif{
+            background-color: #04FF07;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BBY361 Veri Tabanı Yönetim Sistemleri</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="aktif">Ana Sayfa</a></li>
+            <li><a href="arama.php">Arama</a></li>
+            <li><a href="listele.php">Katalogta Bulunan Eserler</a></li>
+            <li><a href="yazar-listele.php">Katalogta Bulunan Yazarlar</a></li>
+            <li><a href="yazar-ekle.php">Yazar Ekleme İşlemleri</a></li>
+            <li><a href="eser-ekle.php">Eser Ekleme İşlemleri</a></li>
+            <li><a href="eser-sil.php">Eser Silme İşlemleri</a></li>
+            <li><a href="eser-guncelle.php">Eser Güncelleme İşlemleri</a></li>
+        </ul>
+    </nav>
+    <main>
+    <h1 style="padding-left: 300px; font-family: Arial;">BBY361 Veri Tabanı Yönetim Sistemleri - Final Projesi</h1>
+    <h2 style="padding-left: 500px;">Dersin Sorumlusu: Orçun Madran</h2>
+    <h2 style="padding-left: 550px;">Adı-Soyadı: Miray Tekcan</h2>
+    <h2 style="padding-left: 530px;">Öğrenci Numarası: 2210396002</h2>
+    <h3>Proje Teslim Tarihi: 8 Ocak 2024</h3> <h3>Proje Sunumu: 9 Ocak 2024</h3>
+    <h2 style="padding-left: 25px;">Proje Kriterleri:</h2>
+    <ul>
+    <li>Proje kriterlerine göre, veritabanının ana varlığı (örneğin, eser) ile ilgili olarak veritabanında ekleme, silme ve güncelleme özellikleri olmalıdır.</li>
+    <li>Diğer varlıklar (örneğin, yazar, yayınevi vb.) ile ilgili herhangi bir arayüz çalışmasına gerek yoktur; ancak bu varlıkların veritabanında yer alması gerekmektedir.</li>
+    <li>Listeleme özelliğinde, veritabanı içindeki tüm tablolar birleşmiş olarak listelenmeli ve eser, yazar, yayınevi gibi varlıklar, id'leri ile değil gerçek isimleri ile gösterilmelidir.</li>
+    <li>Veritabanı üzerinde gerçekleştirilecek arama çalışmasında tüm tablolar birbiri ile ilişkilendirilerek arama yapabilmelidir. </li>
+    <li>Ana varlık üzerinden yapılan eklemelerde, ilişkili tabloların verileri veri giriş formunda bulunmalıdır.</li>
+    <li>Proje teslimi GitHub üzerinden gerçekleştirilecek ve GitHub deposunda SQL dosyası mutlaka bulunmalıdır. </li>
+    <li>SQL dosyası içinde CREATE DATABASE komutu bulunmalı ve veritabanının ismi "bby361_adsoyad" şeklinde olmalıdır.</li>
+    <li>Veritabanı, tablo ve alan adlarında Türkçe karakter kullanılmamalıdır. Ancak, verilerin kendisinde Türkçe karakter kullanılabilir.</li>
+    </ul>
+    </main>
+    <footer>
+        <p>Bu web sayfası Veri Tabanı Yönetim Sistemleri dersi final projesi kapsamında Miray Tekcan tarafından oluşturulmuştur.</p>
+    </footer>
+</body>
+</html>
